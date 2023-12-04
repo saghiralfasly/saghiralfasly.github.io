@@ -53,7 +53,53 @@
          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 		 
 
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='nerfsuper_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/PathDino.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+<!--                 <img src='images/PathDino.jpg' width="160"> -->
+              </div>
+              <script type="text/javascript">
+                function nerfsuper_start() {
+                  document.getElementById('PathDino').style.opacity = "1";
+                }
 
+                function nerfsuper_stop() {
+                  document.getElementById('PathDino').style.opacity = "0";
+                }
+                nerfsuper_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2311.08359">
+                <papertitle>Rotation-Agnostic Image Representation Learning for Digital Pathology</papertitle>
+              </a>
+              <br>
+	      <strong>Saghir Alfasly</strong>,
+              <a>Abubakr Shafique</a>,
+              <a >Peyman Nejat</a>, 
+		<a> Jibran Khan </a>
+	      <a >Areej Alsaafin</a>, 
+	      <a >Ghazal Alabtah</a>, 
+	      <a >H.R.Tizhoosh</a>, 
+              <br>
+              <em>2023</em>
+              <br>
+	      [<a href="https://rhazeslab.github.io/PathDino-Page/">Project webpage</a>]
+              [<a href="https://huggingface.co/spaces/Saghir/PathDino">Demo</a>]
+              [<a href="https://arxiv.org/abs/2311.08359">Paper</a>]
+	      [<a href="https://arxiv.org/pdf/2303.00725.pdf">Supplementary</a>]
+		[<a href="https://github.com/RhazesLab/PathDino">Code</a>]
+		[<a href="https://portal.gdc.cancer.gov/repository?facetTab=files&filters=%7B%22op%22%3A%22and%22%2C%22content%22%3A%5B%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.project.program.name%22%2C%22value%22%3A%5B%22TCGA%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22files.access%22%2C%22value%22%3A%5B%22open%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22files.data_format%22%2C%22value%22%3A%5B%22svs%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22files.experimental_strategy%22%2C%22value%22%3A%5B%22Diagnostic%20Slide%22%5D%7D%7D%5D%7D">Data</a>]
+              <p></p>
+              <p>
+              In this work, we introduce a rapid patch selection method (FPS) for efficient selection of representative patches while preserving spatial distribution. HistoRotate, is a 360∘ rotation augmentation for training histopathology models, enhancing learning without compromising contextual information. PathDino, is a compact histopathology Transformer with five small vision transformer blocks and ≈9 million parameters.
+              </p>
+            </td>
+          </tr>
 
 	<tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">

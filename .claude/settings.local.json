@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Dell/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/db4684ed-66ef-4223-9ee5-a51360406b6e/073ea6d9-6158-4229-9561-5821d4adf99d/skills/docx/**)",
+      "Bash(pandoc --track-changes=all \"E:\\\\downld\\\\Saghir Alfasly - CV - 2026 - noStatement.docx\" -o output.md)",
+      "Bash(python \"C:\\\\Users\\\\Dell\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\db4684ed-66ef-4223-9ee5-a51360406b6e\\\\073ea6d9-6158-4229-9561-5821d4adf99d\\\\skills\\\\docx\\\\scripts\\\\office\\\\unpack.py\" \"E:\\\\downld\\\\Saghir Alfasly - CV - 2026 - noStatement.docx\" \"C:\\\\Users\\\\Dell\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\db4684ed-66ef-4223-9ee5-a51360406b6e\\\\073ea6d9-6158-4229-9561-5821d4adf99d\\\\skills\\\\docx\\\\unpacked_cv\")",
+      "Bash(pip install:*)",
+      "Bash(python -c \":*)",
+      "Bash(python3 -c \":*)",
+      "WebFetch(domain:andrewsong90.github.io)",
+      "WebSearch"
+    ]
+  }
+}

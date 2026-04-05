@@ -1,0 +1,9 @@
+Saghir Alfasly is an Assistant Professor of Biomedical Informatics at Mayo Clinic College of Medicine and Science and a Research Associate in the Department of Artificial Intelligence and Informatics at Mayo Clinic, Rochester, Minnesota.
+
+He received his Ph.D. in Information and Communication Engineering (Computer Vision & Machine Learning) from the School of Electronics and Information Engineering, South China University of Technology, China, supported by the Chinese Government Scholarship. He also holds an M.Sc. in Computer Science (Computer Vision) from Kuvempu University, India, and a B.Sc. in Computer Science from Sana'a University, Yemen.
+
+His research sits at the intersection of machine learning, computer vision, and clinical medicine. He leads work on computational pathology — including foundation model development for histopathology (PathDino, CVPR 2024), generative AI for synthetic tissue synthesis (HeteroTissue-Diffuse, NeurIPS 2025), visual search in whole-slide images, and reinforcement learning for diagnostic navigation. Earlier work spans video understanding, multimodal action recognition, and intelligent surveillance. His publications appear in NeurIPS, CVPR, IEEE TNNLS, IEEE TITS, Mayo Clinic Proceedings, Scientific Reports, and IEEE Reviews in Biomedical Engineering, among others.
+
+Dr. Alfasly has mentored more than 15 students and research interns across institutions in the US, China, and beyond, and has organized workshops at the Mayo Clinic AI Summit and co-organized a NeurIPS 2025 competition on self-supervised learning for cancer pathology foundation models. He serves as an Associate Guest Editor for IJCNN and as a reviewer for leading IEEE journals and top-tier computer vision conferences including CVPR, ICCV, and ECCV.
+
+He is a member of the Computer Vision Foundation (CVF), the Digital Pathology Association, and the Institute of Electrical and Electronics Engineers (IEEE).
